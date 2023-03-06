@@ -16,7 +16,8 @@ RSpec.describe "Country Facade" do
             .to_return(status: 200, body: json_response, headers: {})
 
         capital = CountryFacade.get_coordinates(country)
-        binding.pry
+        expect(capital.capital).to eq("Paris")
+        expect(capital.coords).to eq([2.33, 48.87])
     end
 
 end
