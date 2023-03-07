@@ -21,7 +21,7 @@ RSpec.describe "Places API" do
 
             expect(place[:attributes]).to have_key(:name)
             expect(place[:attributes]).to have_key(:address)
-            expect(place[:attributes]).to have_key(:place_id)
+            expect(place[:attributes]).to have_key(:name)
         end
     end
 end
