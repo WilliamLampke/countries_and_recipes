@@ -4,6 +4,7 @@ class Country
   def initialize(country)
     @name = country[:name][:common]
     @images = images(country[:flags])
+    
   end
 
   def images(data)

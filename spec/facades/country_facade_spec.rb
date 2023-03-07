@@ -12,7 +12,7 @@ RSpec.describe "Country Facade" do
     it "finds coordinates by country name" do
         json_response = File.read('spec/fixtures/france_country.json')
         country = "France"
-        stub_request(:get, "https://restcountries.com/name/France")
+        stub_request(:get, "https://restcountries.com/v3.1/name/France")
             .to_return(status: 200, body: json_response, headers: {})
 
         capital = CountryFacade.get_coordinates(country)
