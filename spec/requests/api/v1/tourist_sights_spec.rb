@@ -2,11 +2,11 @@ require 'rails_helper'
 RSpec.describe "Places API" do
     it "finds tourism sights in a capital based on country passed" do
         json_response = File.read('spec/fixtures/paris_response.json')
-        stub_request(:get, "https://api.geoapify.com/v2/places?filter=circle2.33,48.87,1000")
+        stub_request(:get, "https://api.geoapify.com/v2/places?apiKey=343522680ecc4fdfbc5ed15a75acebbe&categories=tourism&filter=circle:2.33,48.87,1000")
             .to_return(status: 200, body: json_response, headers: {})
 
         json_response2 = File.read('spec/fixtures/france_country.json')
-        stub_request(:get, "https://restcountries.com/name/France")
+        stub_request(:get, "https://restcountries.com/v3.1/name/France")
             .to_return(status: 200, body: json_response2, headers: {})
         
         get "/api/v1/tourist_sights?country=France"

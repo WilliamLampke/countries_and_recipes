@@ -4,7 +4,7 @@ RSpec.describe "Tourism Facade" do
     it "returns tourist attractions based on coordinates" do
         json_response = File.read('spec/fixtures/paris_response.json')
         coords = [2.33, 48.87]
-        stub_request(:get, "https://api.geoapify.com/v2/places?filter=circle2.33,48.87,1000")
+        stub_request(:get, "https://api.geoapify.com/v2/places?apiKey=343522680ecc4fdfbc5ed15a75acebbe&categories=tourism&filter=circle:2.33,48.87,1000")
             .to_return(status: 200, body: json_response, headers: {})
         
         places = TourismFacade.get_places(coords)
