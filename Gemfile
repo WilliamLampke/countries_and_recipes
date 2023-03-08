@@ -57,6 +57,7 @@ group :development, :test do
   gem 'launchy'
   gem 'simplecov'
   gem 'webmock'
+  gem 'shoulda-matchers'
 end
 
 group :development do
@@ -66,5 +67,5 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  
 end
-
