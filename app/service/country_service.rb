@@ -8,6 +8,10 @@ class CountryService
         response = conn.get("name/#{country}")
         data = JSON.parse(response.body, symbolize_names: true)
     end
+    def self.single_country(country)
+        response = conn.get("name/#{country}")
+        data = JSON.parse(response.body, symbolize_names: true)
+    end
     def self.conn
             Faraday.new(url: 'https://restcountries.com/v3.1') do |faraday|
 

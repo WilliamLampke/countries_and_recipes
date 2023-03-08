@@ -1,0 +1,182 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "0w_4djRcAp-Hh3DHiJc1mqwg3yw",
+  "nextPageToken": "CAUQAA",
+  "regionCode": "US",
+  "pageInfo": {
+    "totalResults": 61,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VC4X3Ky5OKgwm7IrEHYTcG3ewU0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "I22A32uBvRo"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-18T20:23:35Z",
+        "channelId": "UCluQ5yInbeAkkeCndNnUhpw",
+        "title": "A Super Quick History of France",
+        "description": "Sources: A History of France (2018) by John Julius Norwich. Atlantic Monthly Press, New York. A Concise History of France (2005) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/I22A32uBvRo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/I22A32uBvRo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/I22A32uBvRo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mr History",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-07-18T20:23:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XPYjBfW0Pbyc_zWHhytVP_K67Ok",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dm9HJQNbU0M"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-15T03:34:02Z",
+        "channelId": "UCluQ5yInbeAkkeCndNnUhpw",
+        "title": "A Super Quick History of Morocco",
+        "description": "Audio Requiring Attribution: Arab Instruments: https://commons.wikimedia.org/wiki/File:Playing_Darbuka_on_the_Beach.webm ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dm9HJQNbU0M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dm9HJQNbU0M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dm9HJQNbU0M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mr History",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-15T03:34:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3LsiwE6zQwZroNObRvI8ulX_bR4",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLVRhJQ5GttaJJo5HY1JcEVihUpSV6fz5o"
+      },
+      "snippet": {
+        "publishedAt": "2019-08-02T20:36:34Z",
+        "channelId": "UCluQ5yInbeAkkeCndNnUhpw",
+        "title": "Super Quick Histories!",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MfGoJrqh0Gk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MfGoJrqh0Gk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MfGoJrqh0Gk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mr History",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-08-02T20:36:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iy1J4Gk6Fq2trfvRyKTO7mB_K30",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EfkeslHxVfo"
+      },
+      "snippet": {
+        "publishedAt": "2019-08-02T20:32:14Z",
+        "channelId": "UCluQ5yInbeAkkeCndNnUhpw",
+        "title": "A Super Quick History of Algeria",
+        "description": "Main Source: “A History of Algeria” by James McDougall, Cambridge University Press, Cambridge, 2017. Pictures Requiring ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EfkeslHxVfo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EfkeslHxVfo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EfkeslHxVfo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mr History",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-08-02T20:32:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mYdvoiOmzWgMB3h5m5dN4yLN1Yc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "x5PQ1LoYRN0"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-01T01:12:31Z",
+        "channelId": "UCluQ5yInbeAkkeCndNnUhpw",
+        "title": "A Super Quick History of Monaco",
+        "description": "Pictures Requiring Attribution: Linedwell: https://commons.wikimedia.org/wiki/File:Monaco_-_Grotte_de_l%27Observatoire.jpg ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x5PQ1LoYRN0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x5PQ1LoYRN0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x5PQ1LoYRN0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mr History",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-01T01:12:31Z"
+      }
+    }
+  ]
+}
